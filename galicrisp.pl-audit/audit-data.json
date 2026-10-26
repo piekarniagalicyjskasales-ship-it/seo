@@ -1,0 +1,30 @@
+{
+  "domain": "galicrisp.pl",
+  "url": "https://www.galicrisp.pl/",
+  "status": "not_run",
+  "attempted_at": "2026-10-26",
+  "blocked_reason": "Host denied by environment network policy (proxy CONNECT 403). No pages fetched.",
+  "summary": {
+    "health_score": null,
+    "business_type": "unknown (not fetched)",
+    "top_findings": [],
+    "quick_wins": []
+  },
+  "categories": [],
+  "action_plan": {
+    "phases": [
+      {"name": "Phase 0: Unblock", "timeframe": "Now", "items": [
+        "Allow www.galicrisp.pl and galicrisp.pl in the environment's network settings",
+        "Confirm the domain resolves publicly and serves a 200 response"
+      ]},
+      {"name": "Phase 1: Critical Fixes", "timeframe": "Week 1", "items": []},
+      {"name": "Phase 2: High-Impact Improvements", "timeframe": "Weeks 2-3", "items": []},
+      {"name": "Phase 3: Content & Authority", "timeframe": "Month 2", "items": []},
+      {"name": "Phase 4: Monitoring & Iteration", "timeframe": "Ongoing", "items": []}
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/"
+  }
+}
